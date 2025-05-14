@@ -1,0 +1,12 @@
+.ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.li {
+    list-style: none;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
