@@ -1,0 +1,24 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.input {
+    font-family: "Roboto", sans-serif;
+    color: #0f0f0f;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    &::placeholder {
+        color: #0f0f0f;
+    }
+}
+
+@media (max-width: 480px) {
+    .inputWrapper {
+        width: 90vw;
+    }
+}
