@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import styles from "./navbar.module.scss";
 import TextMenu from "../textMenu/TextMenu";
 
